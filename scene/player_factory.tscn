@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://wvnaf2cijjov"]
+
+[ext_resource type="Script" path="res://script/PlayerControl.gd" id="1_p7nws"]
+[ext_resource type="Texture2D" uid="uid://ddxoqcd57b3wh" path="res://asset/PlayerTest-48.png" id="1_yugxn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hve4i"]
+atlas = ExtResource("1_yugxn")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgyq3"]
+atlas = ExtResource("1_yugxn")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_an83a"]
+atlas = ExtResource("1_yugxn")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yvon5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hve4i")
+}],
+"loop": true,
+"name": &"Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgyq3")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_an83a")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0sitk"]
+size = Vector2(40, 40)
+
+[node name="PlayerFactory" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("1_p7nws")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+sprite_frames = SubResource("SpriteFrames_yvon5")
+animation = &"Down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_0sitk")
