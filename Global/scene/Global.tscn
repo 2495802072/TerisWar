@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://ylym5tiuiiij"]
+
+[ext_resource type="Script" path="res://Global/script/Global.gd" id="1_sdl3q"]
+[ext_resource type="Script" path="res://Global/script/BGMAudioStreamPlayer.gd" id="2_ddwtx"]
+[ext_resource type="Script" path="res://Global/script/SFXAudioStreamPlayer.gd" id="3_olxyh"]
+
+[node name="Global" type="Node"]
+script = ExtResource("1_sdl3q")
+
+[node name="BGMAudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"BGM"
+script = ExtResource("2_ddwtx")
+
+[node name="SFXAudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"SFX"
+script = ExtResource("3_olxyh")
