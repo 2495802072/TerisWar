@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://cf6vblt3n2sgt"]
+[gd_scene load_steps=7 format=3 uid="uid://cf6vblt3n2sgt"]
 
 [ext_resource type="Texture2D" uid="uid://dram13kpg3cp6" path="res://asset/Blocks-48.png" id="1_udw54"]
 [ext_resource type="Script" path="res://script/Map1.gd" id="2_yjgk6"]
 [ext_resource type="PackedScene" uid="uid://wvnaf2cijjov" path="res://scene/player.tscn" id="3_wqnn3"]
+[ext_resource type="Script" path="res://script/PlayerCamera.gd" id="4_mxhoq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1ofx6"]
 texture = ExtResource("1_udw54")
@@ -60,3 +61,6 @@ script = ExtResource("2_yjgk6")
 
 [node name="Player" parent="." instance=ExtResource("3_wqnn3")]
 gravity_open = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("4_mxhoq")
