@@ -32,10 +32,25 @@ enabled=PackedStringArray("res://addons/custom_nodes/plugin.cfg", "res://addons/
 [file_customization]
 
 folder_colors={
+"res://Game/": "orange",
+"res://Game/scene/": "green",
+"res://Game/script/": "yellow",
+"res://Global/": "red",
+"res://Global/scene/": "green",
+"res://Global/script/": "yellow",
+"res://Items/": "blue",
+"res://Items/scene/": "green",
+"res://Items/script/": "yellow",
+"res://Map/": "yellow",
+"res://Map/scene/": "green",
+"res://NPC & Player/": "blue",
+"res://NPC & Player/scene/": "green",
+"res://NPC & Player/script/": "yellow",
+"res://UI/": "green",
+"res://UI/script/": "yellow",
+"res://UI/script/Code/": "red",
 "res://addons/": "gray",
-"res://asset/": "pink",
-"res://scene/": "green",
-"res://script/": "blue"
+"res://asset/": "pink"
 }
 
 [input]
@@ -64,6 +79,10 @@ fight={
 "deadzone": 0.5,
 "events": []
 }
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://Language/language.de.translation", "res://Language/language.en.translation", "res://Language/language.es.translation", "res://Language/language.fr.translation", "res://Language/language.it.translation", "res://Language/language.zh.translation")
 
 [layer_names]
 

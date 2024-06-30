@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://wvnaf2cijjov"]
 
-[ext_resource type="Script" path="res://script/PlayerControl.gd" id="1_e5jnl"]
+[ext_resource type="Script" path="res://NPC & Player/script/PlayerControl.gd" id="1_e5jnl"]
 [ext_resource type="Texture2D" uid="uid://ddxoqcd57b3wh" path="res://asset/PlayerTest-48.png" id="2_4ynvx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hve4i"]

@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=3 uid="uid://cf6vblt3n2sgt"]
+
+[ext_resource type="Texture2D" uid="uid://dram13kpg3cp6" path="res://asset/Blocks-48.png" id="1_face8"]
+[ext_resource type="Script" path="res://Map/script/Map1.gd" id="2_byx2h"]
+[ext_resource type="PackedScene" uid="uid://wvnaf2cijjov" path="res://NPC & Player/scene/player.tscn" id="3_nd5md"]
+[ext_resource type="Script" path="res://NPC & Player/script/PlayerCamera.gd" id="4_1vjwf"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1ofx6"]
+texture = ExtResource("1_face8")
+texture_region_size = Vector2i(48, 48)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+0:0/0/terrain = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+1:0/0 = 0
+1:0/0/terrain_set = 0
+1:0/0/terrain = 0
+1:0/0/probability = 0.01
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+2:0/0 = 0
+2:0/0/terrain_set = 0
+2:0/0/terrain = 0
+2:0/0/probability = 0.08
+2:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:0/0/physics_layer_0/angular_velocity = 0.0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+3:0/0 = 0
+3:0/0/terrain_set = 0
+3:0/0/terrain = 0
+3:0/0/probability = 0.05
+3:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:0/0/physics_layer_0/angular_velocity = 0.0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+4:0/0 = 0
+4:0/0/terrain_set = 0
+4:0/0/terrain = 0
+4:0/0/probability = 0.05
+4:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:0/0/physics_layer_0/angular_velocity = 0.0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+
+[sub_resource type="TileSet" id="TileSet_dak2a"]
+tile_size = Vector2i(48, 48)
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 2
+terrain_set_0/mode = 2
+terrain_set_0/terrain_0/name = "001"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetAtlasSource_1ofx6")
+
+[node name="Map" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_dak2a")
+format = 2
+script = ExtResource("2_byx2h")
+
+[node name="Player" parent="." instance=ExtResource("3_nd5md")]
+gravity_open = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("4_1vjwf")

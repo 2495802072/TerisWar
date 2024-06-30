@@ -1,0 +1,92 @@
+s,zh,en,fr,it,de,es
+Play,开始游戏,Play,Jouer,Gioca,Spielen,Jugar
+Handbook,图鉴,Handbook,,,,
+Option,设置,Options,Réglages,Opzioni,W?hlen: mir.,Opciones
+Exit,退出游戏,Exit,Quitter,Esci,Tritt aus dem spiel aus.,Salida
+Game,游戏,Game,Le jeu,Partita,Spiel,Juego
+Display,显示,Display,Afficher,Visualizza,Sicht.,Display
+Voice,声音,Voice,Voix,Voce,Eine stimme!,Voz
+Control,控制,Control,Contr?le,Controllo,Geriet au?er kontrolle.,Control
+Language,语言,Language,Langue de travail,lingua,Sprache.,Idioma
+Game Setting,游戏设置,Game Settings,Cadre de jeu,Impostazioni gioco,Ich spiel.,La configuración del juego
+Display Setting,显示设置,Display Settings,Réglage de l'affichage,Visualizza impostazioni,Kamera l?uft.,Ajustes de visualización
+Voice Setting,声音设置,Voice Settings,Réglage vocal,Impostazioni voce,Toneinstellung.,Ajustes de voz
+Control Setting,控制设置,Control Settings,Réglage de contr?le,Impostazioni controllo,Einstellungen,Ajustes de Control
+Language Setting,语言设置,Language Settings,Réglage de la langue,Impostazione lingua,?ndert die einstellungen,Ajustes de idioma
+Back,返回,Back,,,,
+,,,,,,
+move_up,↑,↑,↑,↑,↑,↑
+move_down,↓,↓,↓,↓,↓,↓
+move_left,←,←,←,←,←,←
+moce_right,→,→,→,→,→,→
+jump,跳跃,Jump,,,,
+attack,攻击,Attack,,,,
+spurt,冲刺,Spurt,,,,
+,,,,,,
+shortcut bar 1,快捷栏1,Shortcut bar 1,,,,
+shortcut bar 2,快捷栏2,Shortcut bar 2,,,,
+shortcut bar 3,快捷栏3,Shortcut bar 3,,,,
+interact,互动,Interact,,,,
+bag,背包,Bag,,,,
+,,,,,,
+Left Mouse Button,鼠标左键,Left Mouse Button,,,,
+Right Mouse Button,鼠标右键,Right Mouse Button,,,,
+Cooling,冷却中,Cooling,,,,
+master,总音量,Master Volume,,,,
+BGM,背景音乐,Background Music,,,,
+SFX,音效,Sound Effect,,,,
+,,,,,,
+Full Screen,全屏,Full Screen,,,,
+No Full Screen,否,No,,,,
+Borderless Full Screen,无边框,Borderless Full Screen,,,,
+Vsync,垂直同步,Vsync,,,,
+Max FPS,最大帧率,Max FPS,,,,
+UI Scaling,UI 缩放,UI Scaling,,,,
+(FPS not limit),(不限制),(not limit),,,,
+,,,,,,
+Player Name,玩家昵称,Player Name,,,,
+Create,创建,Create,,,,
+Cancel,取消,Cancel,,,,
+Enter,确认,Enter,,,,
+Delete,删除,Delete,,,,
+,,,,,,
+Health,生命值,Health,,,,
+Mana,法力值,Mana,,,,
+ATK,攻击力,ATK,,,,
+DEF,防御力,DEF,,,,
+,,,,,,
+Free,自由,Free,,,,
+Easy,简单,Easy,,,,
+Normal,正常,Normal,,,,
+Difficult,困难,Difficult,,,,
+FREE,自由,FREE,,,,
+EASY,简单,EASY,,,,
+NORMAL,正常,NORMAL,,,,
+DIFFICULT,困难,DIFFICULT,,,,
+"name be used,write again different",昵称重复，请重新输入,"name be used,write again different",,,,
+,,,,,,
+SinglePlayer,单人游戏,SinglePlayer,,,,
+MultiPlayer,多人游戏,MultiPlayer,,,,
+,,,,,,
+Reset By RightClick,鼠标右击重置,Reset By RightClick,,,,
+Host,创建主机,Host,,,,
+Join,加入游戏,Join,,,,
+Host IP:,主机IP：,Host IP:,,,,
+Host Port:,主机端口：,Host Port:,,,,
+Join IP:,IP地址：,Join IP:,,,,
+max player:,最大玩家数：,Max Player:,,,,
+Join Port:,IP端口：,Join Port:,,,,
+create new world,新建世界,Create new world,,,,
+difficult:easy,难度：简单,difficult:easy,,,,
+difficult:normal,难度：正常,difficult:normal,,,,
+difficult:difficult,难度：困难,difficult:difficult,,,,
+seed:,种子：,Seed:,,,,
+name:,名称：,Name:,,,,
+difficult:,难度：,Difficult:,,,,
+,,,,,,
+,,,,,,
+create mode:planarization,创建模式：平坦,Create Mode:Planarization,,,,
+create mode:normal,创建模式：正常,Create Mode:Normal,,,,
+,,,,,,
+,,,,,,
+enemy theme,敌对主题,Enemy Theme,,,,
