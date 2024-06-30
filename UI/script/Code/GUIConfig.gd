@@ -1,4 +1,4 @@
-## UI界面基类（id + PackedScene）
+## 用于存放界面的id + packedscene
 class_name GUIViewConfig extends Resource
 
 @export var id:StringName ## UI的id
