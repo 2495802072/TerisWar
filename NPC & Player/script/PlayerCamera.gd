@@ -1,3 +1,4 @@
+## 玩家相机，多人未实现
 extends Camera2D
 
 @onready var player:CharacterBody2D = $"../Player" as CharacterBody2D

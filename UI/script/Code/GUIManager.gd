@@ -20,7 +20,7 @@ func _ready():
 	#if not has_language:
 		#G._get_view_manager().open_view("SettingsMenu") # 加载设置界面到guiRoot
 
-func open_view(viewId:StringName) ->int:
+func open_view(viewId:StringName) ->int: ## 打开名为[viewId]的界面
 	var config := _get_view_config(viewId) # 获取对应名字的config
 	var instance := _get_new_view_instance_id()# 新界面赋予新的编号
 	var prefab:PackedScene = config.prefab #获取对应config下的PackedScene
@@ -36,18 +36,18 @@ func open_view(viewId:StringName) ->int:
 	# 返回界面编号
 	return instance
 
-func close_view(viewInstanceId:int):
+func close_view(viewInstanceId:int):## 关闭编码为[viewInstanceId]的界面
 	var view := _get_view_by_instance(viewInstanceId)
 	view.close()
 	viewInstanceMap.erase(viewInstanceId)
 	view.queue_free()
 
-func hide_view(viewInstanceId:int):
+func hide_view(viewInstanceId:int):## 隐藏编码为[viewInstanceId]的界面
 	var view := _get_view_by_instance(viewInstanceId)
 	view.be_hide()
 	view.hide()
 
-func show_view(viewInstanceId:int):
+func show_view(viewInstanceId:int):## 显示编码为[viewInstanceId]的界面
 	var view := _get_view_by_instance(viewInstanceId)
 	view.be_hide()
 	view.show()
@@ -57,15 +57,15 @@ func show_view(viewInstanceId:int):
 func _get_view_config(viewId:StringName) -> GUIViewConfig: ## 获取对应名称的config
 	return viewConfigMap[viewId]
 
-func _get_new_view_instance_id() -> int:
+func _get_new_view_instance_id() -> int: ## 获取编码，并让编码自增
 	var t:int = viewInstanceCount
 	viewInstanceCount += 1
 	return t
 
-func _get_view_by_instance(viewInstanceId:int) -> BaseGUI:
+func _get_view_by_instance(viewInstanceId:int) -> BaseGUI: ## 通过编码获取实例化的界面
 	return viewInstanceMap[viewInstanceId]
 
-func _build_view_config_map():
+func _build_view_config_map(): ## 搭建总界面列表，并自动排除空项
 	for config:GUIViewConfig in ViewConfigList:
 		if config == null or config.id.is_empty():
 			continue
