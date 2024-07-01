@@ -48,6 +48,7 @@ folder_colors={
 "res://Items/script/": "yellow",
 "res://Map/": "yellow",
 "res://Map/scene/": "green",
+"res://Map/script/code/": "red",
 "res://NPC & Player/": "blue",
 "res://NPC & Player/scene/": "green",
 "res://NPC & Player/script/": "yellow",
