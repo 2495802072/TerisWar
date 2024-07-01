@@ -6,8 +6,9 @@ signal be_opened
 signal be_closed
 signal be_hided
 signal be_showed
-var config:GUIViewConfig
-var viewInstanceID:int = -1
+
+var config:GUIViewConfig ## 该界面所在的config
+var viewInstanceID:int = -1 ## 实例化该界面时，存储其编码
 
 
 func open(): ## 打开该界面

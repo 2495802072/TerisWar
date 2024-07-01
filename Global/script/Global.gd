@@ -8,7 +8,7 @@ var override_file:String
 var language_file:String 
 var multi_file:String
 
-var PLAY_MODE := PLAY_MODES.SINGLEPLAYER ##单人游戏或者多人游戏
+var PLAY_MODE := PLAY_MODES.SINGLEPLAYER ## 单人游戏或者多人游戏
 enum PLAY_MODES{
 	SINGLEPLAYER,## 单人游戏
 	MULTIPLAYER_HOST,## 多人游戏(主机)

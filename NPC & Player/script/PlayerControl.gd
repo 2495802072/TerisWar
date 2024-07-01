@@ -1,3 +1,5 @@
+##玩家控制 
+## 目前完成：左右移动，跳跃，空中快速下落
 extends CharacterBody2D
 
 @onready var animated_sprite_2d:AnimatedSprite2D = $AnimatedSprite2D as AnimatedSprite2D
@@ -13,7 +15,7 @@ func _physics_process(delta):
 		if not is_on_floor():
 			if Input.is_action_just_pressed("falling_down"):
 				animated_sprite_2d.set_animation("Down")
-				velocity.y = 1200
+				velocity.y += 1200
 			else:
 				velocity.y += gravity * delta
 		if Input.is_action_just_pressed("jump") and is_on_floor():
