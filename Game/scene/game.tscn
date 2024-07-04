@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://djjydr7rsxxl1"]
+[gd_scene load_steps=10 format=3 uid="uid://djjydr7rsxxl1"]
 
+[ext_resource type="Script" path="res://Game/script/game.gd" id="1_li1cv"]
 [ext_resource type="PackedScene" uid="uid://b4cuif5lu7uyp" path="res://UI/scene/PrimaryMenu.tscn" id="2_2tb5d"]
 [ext_resource type="Script" path="res://UI/script/Code/GUIManager.gd" id="2_tb7dv"]
 [ext_resource type="Script" path="res://UI/script/Code/GUIConfig.gd" id="2_u8n7w"]
@@ -22,6 +23,7 @@ id = &"Alert"
 prefab = ExtResource("5_jndbu")
 
 [node name="Game" type="Node"]
+script = ExtResource("1_li1cv")
 
 [node name="GUIManager" type="Node" parent="." node_paths=PackedStringArray("guiRoot")]
 unique_name_in_owner = true
