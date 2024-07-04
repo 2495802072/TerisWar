@@ -1,0 +1,278 @@
+# LANGUAGE translation for TetrisWar:
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TetrisWar\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: NFSW0 <1262510555@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Play"
+msgstr "开始游戏"
+
+msgid "Handbook"
+msgstr "图鉴"
+
+msgid "Option"
+msgstr "设置"
+
+msgid "Exit"
+msgstr "退出游戏"
+
+msgid "Game"
+msgstr "游戏"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Voice"
+msgstr "声音"
+
+msgid "Control"
+msgstr "控制"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Game Setting"
+msgstr "游戏设置"
+
+msgid "Display Setting"
+msgstr "显示设置"
+
+msgid "Voice Setting"
+msgstr "声音设置"
+
+#. Control Setting
+msgid "Control Setting"
+msgstr "控制设置"
+
+#. Language Setting
+msgid "Language Setting"
+msgstr "语言设置"
+
+#. Back
+msgid "Back"
+msgstr "返回"
+
+#. move_up
+msgid "move_up"
+msgstr "↑"
+
+#. move_down
+msgid "move_down"
+msgstr "↓"
+
+#. move_left
+msgid "move_left"
+msgstr "←"
+
+#. move_right
+msgid "move_right"
+msgstr "→"
+
+#. jump
+msgid "jump"
+msgstr "跳跃"
+
+#. attack
+msgid "attack"
+msgstr "攻击"
+
+#. spurt
+msgid "spurt"
+msgstr "冲刺"
+
+#. shortcut bar 1
+msgid "shortcut bar 1"
+msgstr "快捷栏 1"
+
+#. shortcut bar 2
+msgid "shortcut bar 2"
+msgstr "快捷栏 2"
+
+#. shortcut bar 3
+msgid "shortcut bar 3"
+msgstr "快捷栏 3"
+
+#. interact
+msgid "interact"
+msgstr "互动"
+
+#. bag
+msgid "bag"
+msgstr "背包"
+
+#. Left Mouse Button
+msgid "Left Mouse Button"
+msgstr "鼠标左键"
+
+#. Right Mouse Button
+msgid "Right Mouse Button"
+msgstr "鼠标右键"
+
+#. Cooling
+msgid "Cooling"
+msgstr "冷却中"
+
+#. master
+msgid "master"
+msgstr "总音量"
+
+#. BGM
+msgid "BGM"
+msgstr "背景音乐"
+
+#. SFX
+msgid "SFX"
+msgstr "音效"
+
+#. Full Screen
+msgid "Full Screen"
+msgstr "全屏"
+
+#. No Full Screen
+msgid "No Full Screen"
+msgstr "不全屏"
+
+#. Borderless Full Screen
+msgid "Borderless Full Screen"
+msgstr "无边框全屏"
+
+#. Vsync
+msgid "Vsync"
+msgstr "垂直同步"
+
+#. Max FPS
+msgid "Max FPS"
+msgstr "最大帧率"
+
+#. UI Scaling
+msgid "UI Scaling"
+msgstr "UI 缩放"
+
+#. (FPS not limit)
+msgid "(FPS not limit)"
+msgstr "(帧率不限制)"
+
+#. Player Name
+msgid "Player Name"
+msgstr "玩家名称"
+
+#. Create
+msgid "Create"
+msgstr "创建"
+
+#. Cancel
+msgid "Cancel"
+msgstr "取消"
+
+#. Enter
+msgid "Enter"
+msgstr "确认"
+
+#. Delete
+msgid "Delete"
+msgstr "删除"
+
+#. Health
+msgid "Health"
+msgstr "生命值"
+
+#. Mana
+msgid "Mana"
+msgstr "法力值"
+
+#. ATK
+msgid "ATK"
+msgstr "攻击力"
+
+#. DEF
+msgid "DEF"
+msgstr "防御力"
+
+#. FREE
+msgid "FREE"
+msgstr "自由"
+
+#. Easy
+msgid "EASY"
+msgstr "简单"
+
+msgid "NORMAL"
+msgstr "正常"
+
+msgid "DIFFICULT"
+msgstr "困难"
+
+msgid "name be used,write again different"
+msgstr "昵称重复，请重新输入"
+
+msgid "SinglePlayer"
+msgstr "单人游戏"
+
+msgid "MultiPlayer"
+msgstr "多人游戏"
+
+msgid "Reset By RightClick"
+msgstr "鼠标右击重置"
+
+msgid "Host"
+msgstr "创建主机"
+
+msgid "Join"
+msgstr "加入游戏"
+
+msgid "Host IP"
+msgstr "主机IP"
+
+msgid "Host Port"
+msgstr "主机端口"
+
+msgid "Join IP"
+msgstr "IP地址"
+
+msgid "max player"
+msgstr "最大玩家数"
+
+msgid "Join Port"
+msgstr "加入端口"
+
+msgid "create new world"
+msgstr "新建世界"
+
+msgid "difficult:easy"
+msgstr "难度：简单"
+
+msgid "difficult:normal"
+msgstr "难度：正常\v"
+
+msgid "difficult:difficult"
+msgstr "难度：困难"
+
+msgid "seed:"
+msgstr "种子："
+
+msgid "name:"
+msgstr "名称："
+
+msgid "difficult:"
+msgstr "难度："
+
+msgid "create mode:planarization"
+msgstr "创建模式：平坦"
+
+msgid "create mode:normal"
+msgstr "创建模式：正常"
+
+msgid "enemy theme"
+msgstr "敌对主题"
