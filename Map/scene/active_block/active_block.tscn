@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://b06yah8sr0yvf"]
+
+[ext_resource type="Script" path="res://Map/script/active_block/active_block.gd" id="1_jorc7"]
+[ext_resource type="Texture2D" uid="uid://dram13kpg3cp6" path="res://asset/Blocks-48.png" id="2_gi6ec"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_r145b"]
+friction = 0.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_brxqr"]
+size = Vector2(48, 48)
+
+[node name="ActiveBlock" type="RigidBody2D"]
+mass = 0.5
+physics_material_override = SubResource("PhysicsMaterial_r145b")
+script = ExtResource("1_jorc7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_gi6ec")
+hframes = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_brxqr")
