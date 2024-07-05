@@ -54,14 +54,14 @@ alignment = 1
 [node name="Play" type="Button" parent="Control/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "开始游戏"
+text = "Play"
 
-[node name="Options" type="Button" parent="Control/HBoxContainer"]
+[node name="Option" type="Button" parent="Control/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "游戏设置"
+text = "Option"
 
 [node name="Exit" type="Button" parent="Control/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "退出游戏"
+text = "Exit"
