@@ -1,0 +1,272 @@
+# LANGUAGE translation for TetrisWar:
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TetrisWar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+msgid "Play"
+msgstr ""
+
+msgid "Handbook"
+msgstr ""
+
+msgid "Option"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Game"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Voice"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Game Setting"
+msgstr ""
+
+msgid "Display Setting"
+msgstr ""
+
+msgid "Voice Setting"
+msgstr ""
+
+#. Control Setting
+msgid "Control Setting"
+msgstr ""
+
+#. Language Setting
+msgid "Language Setting"
+msgstr ""
+
+#. Back
+msgid "Back"
+msgstr ""
+
+#. move_up
+msgid "move_up"
+msgstr ""
+
+#. move_down
+msgid "move_down"
+msgstr ""
+
+#. move_left
+msgid "move_left"
+msgstr ""
+
+#. move_right
+msgid "move_right"
+msgstr ""
+
+#. jump
+msgid "jump"
+msgstr ""
+
+#. attack
+msgid "attack"
+msgstr ""
+
+#. spurt
+msgid "spurt"
+msgstr ""
+
+#. shortcut bar 1
+msgid "shortcut bar 1"
+msgstr ""
+
+#. shortcut bar 2
+msgid "shortcut bar 2"
+msgstr ""
+
+#. shortcut bar 3
+msgid "shortcut bar 3"
+msgstr ""
+
+#. interact
+msgid "interact"
+msgstr ""
+
+#. bag
+msgid "bag"
+msgstr ""
+
+#. Left Mouse Button
+msgid "Left Mouse Button"
+msgstr ""
+
+#. Right Mouse Button
+msgid "Right Mouse Button"
+msgstr ""
+
+#. Cooling
+msgid "Cooling"
+msgstr ""
+
+#. master
+msgid "master"
+msgstr ""
+
+#. BGM
+msgid "BGM"
+msgstr ""
+
+#. SFX
+msgid "SFX"
+msgstr ""
+
+#. Full Screen
+msgid "Full Screen"
+msgstr ""
+
+#. No Full Screen
+msgid "No Full Screen"
+msgstr ""
+
+#. Borderless Full Screen
+msgid "Borderless Full Screen"
+msgstr ""
+
+#. Vsync
+msgid "Vsync"
+msgstr ""
+
+#. Max FPS
+msgid "Max FPS"
+msgstr ""
+
+#. UI Scaling
+msgid "UI Scaling"
+msgstr ""
+
+#. (FPS not limit)
+msgid "(FPS not limit)"
+msgstr ""
+
+#. Player Name
+msgid "Player Name"
+msgstr ""
+
+#. Create
+msgid "Create"
+msgstr ""
+
+#. Cancel
+msgid "Cancel"
+msgstr ""
+
+#. Enter
+msgid "Enter"
+msgstr ""
+
+#. Delete
+msgid "Delete"
+msgstr ""
+
+#. Health
+msgid "Health"
+msgstr ""
+
+#. Mana
+msgid "Mana"
+msgstr ""
+
+#. ATK
+msgid "ATK"
+msgstr ""
+
+#. DEF
+msgid "DEF"
+msgstr ""
+
+#. FREE
+msgid "FREE"
+msgstr ""
+
+#. Easy
+msgid "EASY"
+msgstr ""
+
+msgid "NORMAL"
+msgstr ""
+
+msgid "DIFFICULT"
+msgstr ""
+
+msgid "name be used,write again different"
+msgstr ""
+
+msgid "SinglePlayer"
+msgstr ""
+
+msgid "MultiPlayer"
+msgstr ""
+
+msgid "Reset By RightClick"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Join"
+msgstr ""
+
+msgid "Host IP"
+msgstr ""
+
+msgid "Host Port"
+msgstr ""
+
+msgid "Join IP"
+msgstr ""
+
+msgid "max player"
+msgstr ""
+
+msgid "Join Port"
+msgstr ""
+
+msgid "create new world"
+msgstr ""
+
+msgid "difficult:easy"
+msgstr ""
+
+msgid "difficult:normal"
+msgstr ""
+
+msgid "difficult:difficult"
+msgstr ""
+
+msgid "seed:"
+msgstr ""
+
+msgid "name:"
+msgstr ""
+
+msgid "difficult:"
+msgstr ""
+
+msgid "create mode:planarization"
+msgstr ""
+
+msgid "create mode:normal"
+msgstr ""
+
+msgid "enemy theme"
+msgstr ""
