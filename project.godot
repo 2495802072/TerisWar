@@ -53,6 +53,7 @@ folder_colors={
 "res://NPC & Player/scene/": "green",
 "res://NPC & Player/script/": "yellow",
 "res://UI/": "green",
+"res://UI/Theme/": "pink",
 "res://UI/script/": "yellow",
 "res://UI/script/Code/": "red",
 "res://addons/": "gray",
