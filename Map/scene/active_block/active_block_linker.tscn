@@ -1,11 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://fy8grqeyi8hf"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ic5j6"]
-radius = 2.0
+[ext_resource type="Script" path="res://Map/script/active_block/active_block_linker.gd" id="1_o815v"]
 
 [node name="ActiveBlockLinker" type="PinJoint2D"]
-
-[node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("CapsuleShape2D_ic5j6")
+script = ExtResource("1_o815v")

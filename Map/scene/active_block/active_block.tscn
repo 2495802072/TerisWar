@@ -15,8 +15,10 @@ physics_material_override = SubResource("PhysicsMaterial_r145b")
 script = ExtResource("1_jorc7")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+use_parent_material = true
 texture = ExtResource("2_gi6ec")
 hframes = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("RectangleShape2D_brxqr")
