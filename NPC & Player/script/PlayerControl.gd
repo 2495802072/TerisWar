@@ -8,7 +8,7 @@ extends CharacterBody2D
 var speed:int = 300
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity") # 重力
 
-@export var gravity_open:bool = false
+@export var gravity_open:bool = true
 
 func _physics_process(delta):
 	if gravity_open:

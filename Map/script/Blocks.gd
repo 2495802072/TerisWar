@@ -14,3 +14,6 @@ func thread_generate()->void: ##线程生成地图
 	set_cells_terrain_connect(0,cells_dic[i].cells_array,0,0,true)
 	pass
 
+func _process(_delta):
+	position += Vector2(0,3)
+	pass

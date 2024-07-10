@@ -95,6 +95,7 @@ locale/translations=PackedStringArray("res://local/zh_CN/LC_MESSAGES/zh_CN.po")
 
 2d_physics/layer_1="Map"
 2d_physics/layer_2="Player"
+2d_physics/layer_3="Blocks"
 
 [rendering]
 

@@ -60,10 +60,7 @@ cells_array = Array[Vector2i]([Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), V
 script = ExtResource("3_bif3m")
 cells_array = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
 
-[node name="Blocks" type="Node2D"]
-
-[node name="TileMap" type="TileMap" parent="."]
-position = Vector2(30, 30)
+[node name="Blocks" type="TileMap"]
 tile_set = ExtResource("1_2ole3")
 format = 2
 script = ExtResource("2_m0ha7")

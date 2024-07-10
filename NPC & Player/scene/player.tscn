@@ -56,3 +56,5 @@ sprite_frames = SubResource("SpriteFrames_yvon5")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_0sitk")
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
