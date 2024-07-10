@@ -87,10 +87,6 @@ fight={
 "events": []
 }
 
-[internationalization]
-
-locale/translations=PackedStringArray("res://Language/language.de.translation", "res://Language/language.en.translation", "res://Language/language.es.translation", "res://Language/language.fr.translation", "res://Language/language.it.translation", "res://Language/language.zh.translation")
-
 [layer_names]
 
 2d_physics/layer_1="Map"
