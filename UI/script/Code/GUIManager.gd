@@ -52,8 +52,6 @@ func show_view(viewInstanceId:int):## 显示编码为[viewInstanceId]的界面
 	view.be_hide()
 	view.show()
 
-
-
 func _get_view_config(viewId:StringName) -> GUIViewConfig: ## 获取对应名称的config
 	return viewConfigMap[viewId]
 

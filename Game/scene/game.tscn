@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://djjydr7rsxxl1"]
+[gd_scene load_steps=12 format=3 uid="uid://djjydr7rsxxl1"]
 
 [ext_resource type="Script" path="res://Game/script/game.gd" id="1_li1cv"]
 [ext_resource type="PackedScene" uid="uid://b4cuif5lu7uyp" path="res://UI/scene/PrimaryMenu.tscn" id="2_2tb5d"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://UI/script/Code/GUIConfig.gd" id="2_u8n7w"]
 [ext_resource type="PackedScene" uid="uid://ke1r76yyb0sg" path="res://UI/scene/SettingMenu.tscn" id="4_e8b0x"]
 [ext_resource type="PackedScene" uid="uid://dxkktpmrymtu0" path="res://UI/scene/alert.tscn" id="5_jndbu"]
+[ext_resource type="PackedScene" uid="uid://c6s43dx6dyinh" path="res://UI/scene/GamingUI.tscn" id="7_wa8rp"]
 
 [sub_resource type="Resource" id="Resource_qvwx1"]
 script = ExtResource("2_u8n7w")
@@ -22,14 +23,25 @@ script = ExtResource("2_u8n7w")
 id = &"Alert"
 prefab = ExtResource("5_jndbu")
 
-[node name="Game" type="Node"]
+[sub_resource type="Resource" id="Resource_q37qb"]
+script = ExtResource("2_u8n7w")
+id = &"GamingUI"
+prefab = ExtResource("7_wa8rp")
+
+[node name="Game" type="Node" node_paths=PackedStringArray("map_root", "player_root")]
 script = ExtResource("1_li1cv")
+map_root = NodePath("MapRoot")
+player_root = NodePath("PlayerRoot")
 
 [node name="GUIManager" type="Node" parent="." node_paths=PackedStringArray("guiRoot")]
 unique_name_in_owner = true
 script = ExtResource("2_tb7dv")
-ViewConfigList = Array[ExtResource("2_u8n7w")]([SubResource("Resource_qvwx1"), SubResource("Resource_30o6a"), SubResource("Resource_2rwgw")])
+ViewConfigList = Array[ExtResource("2_u8n7w")]([SubResource("Resource_qvwx1"), SubResource("Resource_30o6a"), SubResource("Resource_2rwgw"), SubResource("Resource_q37qb")])
 guiRoot = NodePath("../CanvasLayer/GUIRoot")
+
+[node name="MapRoot" type="Node2D" parent="."]
+
+[node name="PlayerRoot" type="Node2D" parent="."]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
