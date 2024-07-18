@@ -1,25 +1,21 @@
-[gd_scene load_steps=8 format=3 uid="uid://wvnaf2cijjov"]
+[gd_scene load_steps=7 format=3 uid="uid://wvnaf2cijjov"]
 
 [ext_resource type="Script" path="res://NPC & Player/script/PlayerControl.gd" id="1_e5jnl"]
 [ext_resource type="Texture2D" uid="uid://ddxoqcd57b3wh" path="res://asset/PlayerTest-48.png" id="2_4ynvx"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_hve4i"]
-atlas = ExtResource("2_4ynvx")
-region = Rect2(96, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_cgyq3"]
-atlas = ExtResource("2_4ynvx")
-region = Rect2(48, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_an83a"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecwu3"]
 atlas = ExtResource("2_4ynvx")
 region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_guace"]
+atlas = ExtResource("2_4ynvx")
+region = Rect2(48, 0, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_yvon5"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_hve4i")
+"texture": SubResource("AtlasTexture_ecwu3")
 }],
 "loop": true,
 "name": &"Down",
@@ -27,15 +23,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cgyq3")
-}],
-"loop": true,
-"name": &"Fall",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_an83a")
+"texture": SubResource("AtlasTexture_guace")
 }],
 "loop": true,
 "name": &"default",
@@ -43,7 +31,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0sitk"]
-size = Vector2(32, 32)
+size = Vector2(43, 43)
 
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
@@ -54,7 +42,7 @@ script = ExtResource("1_e5jnl")
 sprite_frames = SubResource("SpriteFrames_yvon5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
+position = Vector2(0, 2.5)
 shape = SubResource("RectangleShape2D_0sitk")
 
 [node name="PlayerCamera" type="Camera2D" parent="."]

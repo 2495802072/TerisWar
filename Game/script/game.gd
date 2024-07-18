@@ -12,5 +12,6 @@ func refresh_map(): ## 刷新地图
 	pass
 
 func add_player():## 添加玩家
-	player_root.add_child(player_scene.instantiate())
+	var player = player_scene.instantiate()
+	player_root.add_child(player)
 	pass

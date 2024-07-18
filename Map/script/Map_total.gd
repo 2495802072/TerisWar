@@ -4,6 +4,7 @@ extends TileMap
 var start_vec:Vector2i = Vector2i(-3,20)
 var end_vec:Vector2i = Vector2i(53,30)
 var task_id:int ##线程任务id
+var velocity:Vector2 = Vector2.ZERO
 
 func _ready():
 	task_id = WorkerThreadPool.add_task(thread_generate,true)

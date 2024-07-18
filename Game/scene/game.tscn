@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://djjydr7rsxxl1"]
+[gd_scene load_steps=13 format=3 uid="uid://djjydr7rsxxl1"]
 
 [ext_resource type="Script" path="res://Game/script/game.gd" id="1_li1cv"]
 [ext_resource type="PackedScene" uid="uid://b4cuif5lu7uyp" path="res://UI/scene/PrimaryMenu.tscn" id="2_2tb5d"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ke1r76yyb0sg" path="res://UI/scene/SettingMenu.tscn" id="4_e8b0x"]
 [ext_resource type="PackedScene" uid="uid://dxkktpmrymtu0" path="res://UI/scene/alert.tscn" id="5_jndbu"]
 [ext_resource type="PackedScene" uid="uid://c6s43dx6dyinh" path="res://UI/scene/GamingUI.tscn" id="7_wa8rp"]
+[ext_resource type="Script" path="res://Game/script/map_root.gd" id="8_wfeod"]
 
 [sub_resource type="Resource" id="Resource_qvwx1"]
 script = ExtResource("2_u8n7w")
@@ -40,6 +41,7 @@ ViewConfigList = Array[ExtResource("2_u8n7w")]([SubResource("Resource_qvwx1"), S
 guiRoot = NodePath("../CanvasLayer/GUIRoot")
 
 [node name="MapRoot" type="Node2D" parent="."]
+script = ExtResource("8_wfeod")
 
 [node name="PlayerRoot" type="Node2D" parent="."]
 

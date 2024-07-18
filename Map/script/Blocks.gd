@@ -2,6 +2,7 @@ extends TileMap
 
 ## 手动预设图案
 @export var cells_dic:Array[CellsConfig] = [] 
+@export var velocity:Vector2 = Vector2.DOWN *3
 
 var task_id:int ##线程任务id
 
@@ -15,5 +16,5 @@ func thread_generate()->void: ##线程生成地图
 	pass
 
 func _process(_delta):
-	position += Vector2(0,3)
+	position += velocity
 	pass
